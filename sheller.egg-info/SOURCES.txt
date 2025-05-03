@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+sheller.c
+sheller.egg-info/PKG-INFO
+sheller.egg-info/SOURCES.txt
+sheller.egg-info/dependency_links.txt
+sheller.egg-info/top_level.txt

@@ -1,0 +1,5 @@
+Metadata-Version: 2.1
+Name: sheller
+Version: 1.0
+Summary: Komutları system() ile çalıştıran modül
+License-File: LICENSE
