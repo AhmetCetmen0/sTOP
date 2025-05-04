@@ -1,0 +1,40 @@
+html{
+    background-color: azure;
+}
+
+div{
+    border-style: solid; /*for debugging*/
+}
+
+div.ram{
+    color: azure;
+    background-color:black;
+    display: block;
+    padding: 10%;
+
+}
+div.cpu{
+    
+    float: left;
+    display: block;
+    margin-left: 15%;
+    margin-bottom: 5%;
+}
+div.gpu{
+    
+    float: left;
+    display: block;
+    margin-left: 15%;
+    margin-bottom: 5%;
+}
+div.disc{
+    float: left;
+    display:block;
+    margin-left: 15%; 
+    margin-bottom: 5%;  
+}
+h1{
+    background-color: cornflowerblue;
+    display: block;
+    padding: 10px;
+}
