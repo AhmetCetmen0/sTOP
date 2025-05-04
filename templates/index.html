@@ -5,27 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../static/style.css">    
     <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
-    <title>Document</title>
+    <title>Main Menu</title>
 </head>
 <body>
-    <div class="ram">
-        <h2>==== Ram & Swap Info ====</h2>
-        <h3><pre>{{ram}}</pre></h3>
-    </div>
-
-    <div class="cpu">
-        <h2>==== CPU info ====</h2>
-        <h3><pre>{{cpu}}</pre></h3>
-    </div>
-
-<div class="gpu">
-    <h2>==== GPU info ====</h2>
-    <h3><pre>{{gpu}}</pre></h3>
-</div>
-<div class="disc">
-    <h2>==== Disc info ====</h2>
-    <h3><pre>{{disc}}</pre></h3>
-</div>
-
+    <a href="/ram" class="ram"></a>
 </body>
 </html>
